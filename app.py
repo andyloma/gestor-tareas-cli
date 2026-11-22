@@ -4,3 +4,4 @@ def listar_tareas(): pass
 def completar_tarea(i): pass
 def eliminar_tarea(i): pass
 # Menu principal actualizado
+def validar_titulo(t): return boll(t and t.strip())
